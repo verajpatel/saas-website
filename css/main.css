@@ -3,7 +3,7 @@ header {
 }
 
 footer {
-  background-color: #394191;
+  background-color: #4e5fff;
 }
 
 .resources {
@@ -15,9 +15,9 @@ main {
 }
 
 h1, h2 {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 section {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
