@@ -13,3 +13,11 @@ footer {
 main {
   background-color: #4b80df;
 }
+
+h1, h2 {
+  font-family: "Merriweather", serif;
+}
+
+section {
+  font-family: "Roboto", sans-serif;
+}
