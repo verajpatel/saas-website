@@ -18,28 +18,34 @@
   </ul>
 
   <header class="masthead" role="banner">
-    <div class="title">
-      <h1>Transactwo</h1>
-    </div>
+    <section class="grid">
+      <div class="unit [xs-1-2 s-1 m-1-2 l-1-2]">
+        <i class="icon i-64">
+          <img src="images/logo.png" alt="" aria-details="logo">
+        </i>
+        <h1 class="icon-label right push-0">Transactwo</h1>
+      </div>
+    </section>
 
     <div class="nav">
       <div class="">
         <nav role="navigation" id="nav" tabindex="0">
-          <ol class="list-group">
-            <li><a href="#signup">Sign Up</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#resources">Resources</a></li>
-            <li><a href="#why">Why Transactwo</a></li>
+          <ol class="list-group-inline">
+            <li><a href="#signup" tabindex="0">Sign Up</a></li>
+            <li><a href="#pricing" tabindex="0">Pricing</a></li>
+            <li><a href="#resources" tabindex="0">Resources</a></li>
           </ol>
         </nav>
       </div>
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <div class="">
-      <section>
-        <img class="img-flex" src="images/agreement-business-businessmen-886465.jpg" alt="" aria-details="banner">
+      <section id="about-1">
+        <div class=" embed embed-16by9">
+          <img class="img-flex embed-item" src="images/agreement-business-businessmen-886465.jpg" alt="" aria-details="banner">
+        </div>
         <div class="">
           <p>Transactions have never been made easier!</p>
           <a class="btn" href="#">Sign Up Now</a>
@@ -48,60 +54,67 @@
     </div>
 
     <div class="">
-      <section>
-        <img class="img-flex" src="images/ecommerce.jpg" alt="" aria-details="secondary-banner">
+      <section id="about-2">
+        <div class=" embed embed-16by9">
+          <img class="img-flex embed-item" src="images/ecommerce.jpg" alt="" aria-details="second-banner">
+        </div>
         <div class="">
-          <p>Choose your features you want.</p>
+          <p>Make a payment. Help your business</p>
           <a class="btn" href="#">Prices</a>
         </div>
       </section>
     </div>
 
-    <section>
+    <div class="">
+      <section id="about-3">
+        <div class=" embed embed-16by9">
+          <img class="img-flex embed-item" src="images/analysis.jpg" alt="" aria-details="third-banner">
+        </div>
+        <div class="">
+          <p>See what features we have.</p>
+          <a class="btn" href="#">Features</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="resources">
       <div class="">
-        <p>See our features.</p>
-        <a class="btn" href="#">Features</a>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Pricing</th>
+              <th scope="col">Resources</th>
+              <th scope="col">Features</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Make a Transaction</td>
+              <td>Transfer to Accounts</td>
+              <td>View Product Plan</td>
+            </tr>
+
+            <tr>
+              <td>Support</td>
+              <td>How to use Transactwo</td>
+              <td>Contact Info</td>
+            </tr>
+
+            <tr>
+              <td>View Transactions</td>
+              <td>View Chart</td>
+              <td>Files</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
-    <footer>
-      <section class="resources">
-        <div class="">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Pricing</th>
-                <th scope="col">Resources</th>
-                <th scope="col">Features</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>Make a Transaction</td>
-                <td>Transfer to Accounts</td>
-                <td>View Product Plan</td>
-              </tr>
-
-              <tr>
-                <td>Support</td>
-                <td>How to use Transactwo</td>
-                <td>Contact Info</td>
-              </tr>
-
-              <tr>
-                <td>View Transactions</td>
-                <td>View Chart</td>
-                <td>Files</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div class="">
-        <h3>Main Headquarters Location</h3>
-        <ol>
+    <footer role="contentinfo">
+      <div>
+        <h2>Main Headquarters Location</h2>
+        <ol class="list-group">
           <li>1355 Sherbrooke Way</li>
           <li>Chicago, IL, 31249, USA </li>
           <li>maintransactwo@gmail.com</li>
@@ -111,13 +124,21 @@
 
       <section>
         <div class="">
-          <img class="img-flex" src="images/facebook.png" alt="" aria-details="socia-media-1">
-          <img class="img-flex" src="images/instagram.png" alt="" aria-details="socia-media-3">
-          <img class="img-flex" src="images/twitter.png" alt="" aria-details="socia-media-3">
+          <i class="icon i-32">
+            <img class="img-flex" src="images/facebook.png" alt="" aria-details="socia-media-1">
+          </i>
+
+          <i class="icon i-32">
+            <img class="img-flex" src="images/instagram.png" alt="" aria-details="socia-media-3">
+          </i>
+
+          <i class="icon i-32">
+            <img class="img-flex" src="images/twitter.png" alt="" aria-details="socia-media-3">
+          </i>
         </div>
       </section>
-
     </footer>
+
   </main>
 </body>
 </html>
